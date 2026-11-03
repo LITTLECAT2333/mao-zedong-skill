@@ -1,0 +1,11 @@
+# 原文库默认不随仓库发布（版权原因，见 docs/SOURCES.md）；只保留安装说明
+skills/mao-lifelong-counsel/kb/*
+!skills/mao-lifelong-counsel/kb/README.md
+skills/mao-lifelong-counsel-full/kb/*
+!skills/mao-lifelong-counsel-full/kb/README.md
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini

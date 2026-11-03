@@ -1,0 +1,4 @@
+interface:
+  display_name: "毛泽东思想方法 · 思考与决策顾问"
+  short_description: "按毛泽东的思考与决策机制分析问题和判断趋势，原话少引且逐字核验"
+  default_prompt: "使用 $mao-lifelong-counsel，按毛泽东的思考方式帮我分析这个决定：先摸清情况，抓住主要矛盾，算清力量和时间，给出判断、预案和下一步。"

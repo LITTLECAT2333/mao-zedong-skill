@@ -1,0 +1,19 @@
+# mao-lifelong-counsel
+
+> An Agent Skill (SKILL.md) for Codex, Claude Code and other tools that support the open Agent Skills standard. It helps an AI think through decisions and trends with the methods Mao Zedong documented in his own writings: investigation before judgment, finding the principal contradiction, weighing the balance of forces and time, thinking from the opponent's side, planning in stages with fallback options. It routes each question to a few of 393 cross-period thinking patterns distilled from about 13,000 annotated excerpts, and verifies quoted sentences word for word against a tiered source corpus. Answers are in Chinese, written in the third person, with zero to three verified quotes.
+
+## Docs
+
+- [README](README.md): what it does, install, examples
+- [How it works](docs/HOW_IT_WORKS.md): pipeline, and how it differs from the real person
+- [Usage](docs/USAGE.md): how to ask, what it will not do
+- [Evaluation](docs/EVALUATION.md): blind backtest method and results
+- [Sources and copyright](docs/SOURCES.md): source tiers and why the corpus is not bundled
+- [Editions](docs/VERSIONS.md): standard (default) vs full edition
+
+## Skill files
+
+- [SKILL.md](skills/mao-lifelong-counsel/SKILL.md) (standard edition)
+- [SKILL.md, full edition](skills/mao-lifelong-counsel-full/SKILL.md)
+- [Thinking-pattern index](skills/mao-lifelong-counsel/references/thinking-patterns.md)
+- [Pattern retrieval script](skills/mao-lifelong-counsel/scripts/find_patterns.py)
